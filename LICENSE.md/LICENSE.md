@@ -1,1 +1,1 @@
-License for our project
+License for our project and guidance on how to share
