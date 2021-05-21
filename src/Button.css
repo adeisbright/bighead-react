@@ -1,0 +1,23 @@
+.button {
+    padding : 10px 20px;
+    margin : .25rem;
+}
+
+.no-border {
+    border : none ; 
+}
+
+.no-outline {
+    outline: 0;
+}
+
+.radius-5 {
+    border-radius: 5px;
+}
+
+.bg-blue {
+    background : #339 ;
+}
+.white-text {
+    color : #fff;
+}
