@@ -1,0 +1,95 @@
+Course Outline For React
+================================== 
+1. Understanding how users interact with Application and the behavior of web Applications 
+2. Single Page Applications  
+   A Single Page Application is a web application or website that interacts with the user by  
+   dynamically rewritting the current web page with new data from the web server , instead 
+   of the default method of the browser loading the entire new pages.
+   The goal is faster transitions that make the website feel more like a native app
+3. Why React ?
+4. How to get started with React 
+    > install node  
+      Install create-react-appp as a global module 
+
+    > npm install create-react-app 
+    > npx create-react-app <appName> 
+    > cd <appName> 
+    > npm start to launch develop server 
+    > npm build to build production files 
+    > npm test to run test 
+5. Exploring React directory 
+    > node_modules 
+    > public 
+    > src - Where your code will live 
+    > package.json 
+    > Readme.md 
+    > yarn 
+6. A simple Bigjara Page with React 
+
+Official Documentation Syllabus 
+================================= 
+1.0 Hello , World and Introducing JSX 
+JSX is not a string neither is it HTML. It is a syntax extension to Javascript.
+In React , you use it to describe what the UI should look like.
+JSX produces react elements.
+The reason for JSX is because  , React embraces the fact that rendering logic is inherently coupled with 
+other UI logic , how events are handled  , how the state changes over time , 
+and how the data is prepared for display.
+With this  , there is no need to artificially seperate technologies by putting markup and logic 
+in seperate files.
+React seperate concerns with loosely coupled units called components that contains
+both markup and logic.
+JSX uses camelCase for naming HTML attribute since its more closer to Javascript.
+JSX prevents cross-site scripting.
+Then work on examples
+
+
+2.0 Rendering Elements 
+Elements are the smallest building blocks of React Apps .
+React Elements are immutable. Once you create an element , you cant change its children 
+or attributes . 
+An element represents the UI at a certain time .
+The Dom is created just once unlike in traditional DOM that the DOM is always destroyed before it is used up again
+const App = <h1>Welcome</h1>
+
+ReactDom.render(
+    <App /> , 
+    document.getElementById("#app")
+)
+
+3.0 Components and Props 
+Components let you split the UI into independent  , reusable pieces and think about each piece in isolation.
+Conceptually , they are like Javascript functions. They accept arbitrary inputs(called "props") 
+and return React elements describing what should appear on the screen.
+
+You can create components using Functions or ES6 classes 
+The way you render a component is different from the way you render an elmement  
+Composing Components E.g Rendering welcome message to different users 
+Extracting Component E.g The comment Example 
+
+4.0 State and Lifecyle 
+5.0 Handling Events 
+In javascript , class methods are not bound by default. If you forget to bind this.handleEveent and pass 
+it to onEvent , this will be undefined when the function is actually called.
+If you need a method without () , you should bind that method
+6.0 Conditioanl Rendering 
+7.0 Lists and Keys 
+8.0 Forms 
+9.0 Lifting State Up 
+10.0 Composition and Inheritance 
+11.0 Thinking in React
+
+Advanced Guides in React 
+1.0 Using React and Inline CSS 
+2.0 Using React with Images and External CSS 
+3.0 Using React with External libraries and External Javascript 
+4.0 React and API 
+5.0 Handling Form Upload 
+6.0 Login and Logout with React 
+7.0 Dashboard design with React 
+8.0 Production Build 
+9.0 Deploying React App 
+10.0 Hooks 
+11.0 State Management 
+
+React Router Guides 
